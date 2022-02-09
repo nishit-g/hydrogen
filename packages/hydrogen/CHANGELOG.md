@@ -49,6 +49,7 @@ and adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 - feat: expect collection seo by default
 - fix: Clear browser fetch cache by @wizardlyhel in [#591](https://github.com/Shopify/hydrogen/pull/591)
 - refactor: use featureImage instead of images(first:1) on product query
+- feat: remove React Router on the client and introduce Hydrogen the `<Link>` componenent and `useNavigate` hook
 
 ## 0.10.1 - 2022-01-26
 
