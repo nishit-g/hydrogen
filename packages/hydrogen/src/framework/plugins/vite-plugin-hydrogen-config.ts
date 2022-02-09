@@ -72,6 +72,7 @@ export default () => {
       },
 
       envPrefix: ['VITE_', 'PUBLIC_'],
+      base: process.env.VITE_BASE_URL,
     }),
 
     // TODO: Remove when react-dom/fizz is fixed
