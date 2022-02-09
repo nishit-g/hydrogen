@@ -1,4 +1,4 @@
-export {Link, useNavigate} from './Link';
+export {Link} from './Link';
 export type {MediaFileProps} from './MediaFile';
 export {MediaFile, MediaFileFragment} from './MediaFile';
 export type {VideoProps} from './Video';
@@ -60,6 +60,7 @@ export type {ShopPayButtonProps} from './ShopPayButton';
 export {ShopPayButton} from './ShopPayButton';
 export {useAvailableCountries} from '../hooks/useAvailableCountries';
 export {useCountry} from '../hooks/useCountry';
+export {useNavigate} from '../hooks/useNavigate';
 
 /**
  * Provide namespaced aliases for the `Product` group.
