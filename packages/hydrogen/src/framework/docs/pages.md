@@ -222,6 +222,10 @@ Custom responses provide the following benefits:
 
 The following example shows how to create a custom sitemap by adding a new server component called `pages/sitemap.xml.server.jsx`. The custom response object returns the sitemap.
 
+The [XML sitemap](https://github.com/Shopify/hydrogen/blob/main/examples/template-hydrogen-default/src/pages/sitemap.xml.server.jsx) included in the Hydrogen starter template has a limit of 250 products, 250 collections and 250 pages which will need to be edit with pagination if your shop has more resources.
+
+This version of sitemap is also cached for 24 hours, and uses [`onlineStoreUrl`](https://shopify.dev/api/storefront/2022-01/objects/Product#field-product-onlinestoreurl) field from Storefront API as url while falling back to starter template url structure based on resource handle.
+
 > Tip:
 > Hydrogen's starter includes a `pages/sitemap.xml.server.jsx` component which serves a sitemap at `/sitemap.xml`.
 
